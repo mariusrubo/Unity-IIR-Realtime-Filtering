@@ -15,4 +15,4 @@ The below image shows data that was streamed in from an OpenBCI. Nothing was bei
 * For receiving data in Unity through LSL, see this excellent repository: https://github.com/xfleckx/LSL4Unity
 
 # License
-These scripts run under the GPLv3 license. See the comments inside the scripts for more details and ideas on how to adapt them for your own projects.
+These scripts run under the GPLv3 license.
