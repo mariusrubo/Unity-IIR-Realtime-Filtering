@@ -1,4 +1,4 @@
-# Unity-IIR-Online-Filtering
+# Unity-IIR-Realtime-Filtering
 Apply Notch filters or Butterworth Low-pass and High-pass filters to data as it arrives
 
 # Purpose
