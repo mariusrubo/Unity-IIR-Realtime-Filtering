@@ -12,7 +12,6 @@ The below image shows ecg data that was streamed in from an OpenBCI. The upper p
 * Online filtering this way does not allow for zero-phase filtering as achieved in the well-known "filtfilt" function. For an introduction into this topic I recommend this video: https://www.youtube.com/watch?v=ue4ba_wXV6A
 * Anyone interested in digital signal filtering may find this free online book useful: http://dspguide.com/
 * For receiving data in Unity through LSL, see this excellent repository: https://github.com/xfleckx/LSL4Unity
-* For information on how to change an object's mesh on the heartbeat see my repository https://github.com/mariusrubo/Unity-DisplayHeartbeat
 
 # License
 These scripts run under the GPLv3 license.
