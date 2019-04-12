@@ -1,5 +1,5 @@
 # Unity-IIR-Realtime-Filtering
-Apply Notch filters or Butterworth Low-pass and High-pass filters to data as it arrives
+Apply Notch filters or Butterworth Low-pass and High-pass filters to data as they arrive
 
 # Purpose
 Data from external hardware like OpenBCI, Bitalino, Arduino etc. typically need to be filtered before they can be processed. When you need to analyze data after it is collected (e.g. in a psychological or medical experiment), there exist excellent packages both for MATLAB and R. If your Unity software needs to respond dynamically to input, one option is to send data to MATLAB, perform signal processing there, and then send data to Unity. This project, however, aims at performing simple filtering of data directly in C#. Specifically, 2nd order Notch and Butterworth filters, but also other IIR filters can be implemented and used on data as it is streamed into Unity. For details see the comments in FilterData.cs. 
