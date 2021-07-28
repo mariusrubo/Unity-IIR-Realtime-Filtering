@@ -41,6 +41,7 @@ public class FilterData : MonoBehaviour {
 
 	// two parameters indicate a 2nd order Butterworth low-pass filter
         // equation obtained here: https://www.codeproject.com/Tips/1092012/A-Butterworth-Filter-in-Csharp
+	// note that you can also use the five-parameter-solution described below. This is just for convenience. 
         public IIRFilter(float samplingrate, float frequency)
         {
             const float pi = 3.14159265358979f;
